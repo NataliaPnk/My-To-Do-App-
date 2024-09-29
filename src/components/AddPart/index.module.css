@@ -1,0 +1,44 @@
+.titleAddContainer h2 {
+  color: rgb(10, 10, 96);
+  font-weight: 900;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding-right: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+
+  background-color: rgb(183, 65, 6);
+  opacity: 60%;
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.addPartContainer input {
+  width: 70%;
+  height: 30px;
+  margin: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: "Nunito";
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.addPartContainer button {
+  width: 15%;
+  height: 30px;
+  border-radius: 10px;
+  color: rgb(7, 7, 198);
+  font-weight: 600;
+  font-family: "Nunito";
+  background-color: rgb(215, 107, 5);
+  border: solid 1px rgb(42, 3, 76);
+
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

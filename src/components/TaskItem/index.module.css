@@ -1,0 +1,32 @@
+.taskItemContainer {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
+.taskItemContainer input {
+  margin-right: 20px;
+}
+
+.taskItemContainer p {
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+}
+
+.taskItemContainer button {
+  margin-left: 20px;
+
+  color: rgb(25, 139, 10);
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Nunito";
+  padding: 5px;
+  border: solid 1px rgb(52, 52, 3);
+
+  border-radius: 10px;
+  background-color: rgb(225, 187, 111);
+
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
